@@ -1,0 +1,57 @@
+/* GIVE SOME UNIVERSHAL CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CHANGING THE FONT FAMILY FOR OUR TEXT  */
+body {
+    font-family: cursive;
+}
+
+/* BECAUSE I CHOOSE ANCHOR TAG FOR OUR BUTTON FOR THAT I CHANGE ITS DEFAULT BEHAVIOR  */
+a {
+    text-decoration: none;
+}
+
+/* CREATING UTILITY CLASS FOR RE-USABLIBITY OF CODE */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.primary-btn {
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 12px;
+    color: lightgreen;
+    transition: .3s ease-in-out;
+}
+
+.primary-btn:hover {
+    border: none;
+    background-color: lightgreen;
+    color: black;
+}
+/* UTILITY CLASS ENDS */
+
+
+/* GIVING SOME STYLE TO THE CONTAINER. AND CHOOSE FLEX DIRECTION AS COLUMN  */
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top left, red, blue);
+    flex-direction: column;
+}
+
+/* GIVING STYLE TO THE CLOCK  */
+.stopwatch {
+    background: linear-gradient(to top right, rgb(214, 40, 69), rgb(7, 13, 129));
+    font-size: 4rem;
+    border-radius: 10px;
+}
+
